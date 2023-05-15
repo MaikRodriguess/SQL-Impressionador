@@ -1,8 +1,8 @@
--- Armazenando em uma variável um registro de uma consulta
+-- Armazenando em uma variÃ¡vel um registro de uma consulta
 
 /*
-Exemplo 1: Qual é o nome do produto que teve a maior quantidade vendida EM UMA 
-ÚNICA VENDA da tabela FactSales.
+Exemplo 1: Qual Ã© o nome do produto que teve a maior quantidade vendida EM UMA 
+ÃšNICA VENDA da tabela FactSales.
 */
 
 DECLARE @varProdutoMaisVendido INT,
@@ -20,6 +20,7 @@ PRINT @varTotalMaisVendido
 -- Produto mais vendido
 SELECT 
 	ProductKey,
-	ProductName
+	ProductName,
+	@varTotalMaisVendido AS 'Qt.ProdutosVendidos'
 FROM DimProduct
 WHERE ProductKey = @varProdutoMaisVendido
