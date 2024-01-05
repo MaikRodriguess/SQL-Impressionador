@@ -1,8 +1,8 @@
 # Curso SQL 
 
-## Conteúdo do Curso
+## Conteúdo do Curso de SQL 
 
-Aqui está uma lista dos módulos disponíveis no curso:
+Aqui está uma lista dos módulos e conteúdo disponíveis no curso:
 
 1. Boas Vindas
 2. [SQL Server] Variáveis
