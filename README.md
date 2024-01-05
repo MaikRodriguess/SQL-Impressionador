@@ -1,4 +1,6 @@
-# Curso SQL 
+#  SQL Impressionador
+
+Este repositório possui o conteúdo estudado do curso de SQL, da HashTag treinamentos..
 
 ## Conteúdo do Curso de SQL 
 
